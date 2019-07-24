@@ -229,7 +229,7 @@ const Data = [
             },
             {
                 name: 'Gift Cards',
-                img: 'https://www.apple.com/url/v/music/h/images/overview/icons/gift_cards_large.svg'
+                img: 'https://www.apple.com/v/music/h/images/overview/icons/gift_cards_large.svg'
             }
         ]
     }

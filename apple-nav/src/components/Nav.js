@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+// import SubNav from "./SubNav";
+
 
 const Nav = props => {
-    console.log(props)
     return (
         <div className="nav-item">
             <Link to="/"><img src="https://www.apple.com/ac/globalnav/4/en_US/images/globalnav/apple/image_large.svg"/></Link>
             {props.links.map((item) => (
-                <Link to={`/sub-links/${item.name}`}>
+                <Link to={`/sub-links/${item.name}`} key={item.name}>
                 <h2>{item.name}</h2>
             </Link>
             ))}
